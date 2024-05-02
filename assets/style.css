@@ -1,0 +1,296 @@
+*{
+    font-family: serif;
+}
+body{
+    background: rgb(239, 175, 79);
+    font-family: serif;
+    font-weight: 300;
+    color: rgb(239, 175, 79);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+/* HOME */
+.landing-page-1 {
+    background-image: url('midia/background-site-1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.landing-page-1 .logo{
+    padding-top: 10%;
+    margin-bottom: 9%;   
+    display: flex;
+    justify-content: center;
+}
+
+.landing-page-1 .theme{
+    padding-top: 10%;
+    text-align: center;
+}
+.landing-page-1 .theme h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 4.6em;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
+    -webkit-text-stroke: 2px rgb(4, 2, 0);
+    text-shadow:
+       3px 3px 0 rgb(4, 2, 0),
+     -1px -1px 0 rgb(4, 2, 0),  
+      1px -1px 0 rgb(4, 2, 0),
+      -1px 1px 0 rgb(4, 2, 0),
+       1px 1px 0 rgb(4, 2, 0);
+}
+.landing-page-1 .theme p{
+    padding-top: 0%;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.formulario{
+    margin-bottom: 10%;
+}
+.formulario button{
+    background-color: rgb(239, 175, 79);
+    border-color: rgb(239, 175, 79);
+    color: #000000;
+    transition: 0.4s;
+}
+.formulario button:hover{
+    background-color: black;
+    border-color: black;
+    color: rgb(239, 175, 79);
+}
+.list-logo{
+    display: inline;
+    padding-inline: 5%;
+}
+.list-logo li{
+    text-align: center;
+    padding-left: 4%;   
+}
+/* END HOME */
+
+/* INCONS*/
+.landing-page-2{
+    margin: 0;
+    padding:5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.landing-page-2 .sumary-theme h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
+    -webkit-text-stroke: 1px rgb(4, 2, 0);
+    text-shadow:
+       2px 2px 0 rgb(4, 2, 0),
+     -1px -1px 0 rgb(4, 2, 0),  
+      1px -1px 0 rgb(4, 2, 0),
+      -1px 1px 0 rgb(4, 2, 0),
+       1px 1px 0 rgb(4, 2, 0);
+}
+.landing-page-2 .list-dc{
+    color: #000000;
+}
+
+.landing-page-2 .list-dc img{
+    margin-right: 4%;
+    /*border-style: solid;
+    border-radius: 50%;*/
+    padding: 10%;
+    align-items: center;
+}
+.landing-page-2 .list-dc h3{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.landing-page-2 .list-dc p{
+    font-size: 0.8em;
+}
+/* END ICONS */
+
+/*ABOUT*/
+.landing-page-3{
+    background-color: #000000;
+    color: rgb(239, 175, 79);
+    padding: 5%;
+}
+.landing-page-3 .image-about-it {
+    display: flex;
+    justify-content: end;
+    align-items:center;
+}
+.landing-page-3 .about-it{
+    padding-block: 7%;
+    
+}
+.landing-page-3 .about-it h1{
+    font-weight: 600;
+    font-size: 3.5em;
+    margin-bottom: 5%;
+    padding-bottom: 0%;
+
+    -webkit-text-stroke: 1px rgb(4, 2, 0);
+    text-shadow:
+       2px 2px 0 rgb(4, 2, 0),
+     -1px -1px 0 rgb(4, 2, 0),  
+      1px -1px 0 rgb(4, 2, 0),
+      -1px 1px 0 rgb(4, 2, 0),
+       1px 1px 0 rgb(4, 2, 0);
+}
+/*END ABOUT*/
+/*ENTERTAINMENT*/
+.landing-page-4{
+    color: #000000;
+    padding: 5%;
+
+}
+.landing-page-4 .video-music{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+}
+.landing-page-4 .music-80s{
+    padding-block: 5%;
+}
+.landing-page-4 .music-80s h1{
+    color: rgb(239, 175, 79);
+    font-weight: 600;
+    font-size: 3.5em;
+    margin-bottom: 5%;
+    padding-bottom: 0%;
+
+    -webkit-text-stroke: 1px rgb(4, 2, 0);
+    text-shadow:
+       2px 2px 0 rgb(4, 2, 0),
+     -1px -1px 0 rgb(4, 2, 0),  
+      1px -1px 0 rgb(4, 2, 0),
+      -1px 1px 0 rgb(4, 2, 0),
+       1px 1px 0 rgb(4, 2, 0);
+}
+/* END ENTERTAINMENT*/
+
+/* COMENTARY */
+.landing-page-5{
+    background-image: url('midia/background-site-1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-block: 5%;
+}
+.landing-page-5 .comentary h1{
+    padding-inline: 10%;
+    color: rgb(239, 175, 79);
+    font-weight: 600;
+    font-size: 3.5em;
+    text-align: center;
+
+    -webkit-text-stroke: 1px rgb(4, 2, 0);
+    text-shadow:
+       2px 2px 0 rgb(4, 2, 0),
+     -1px -1px 0 rgb(4, 2, 0),  
+      1px -1px 0 rgb(4, 2, 0),
+      -1px 1px 0 rgb(4, 2, 0),
+       1px 1px 0 rgb(4, 2, 0);
+}
+.landing-page-5 .comentary p{
+    margin-inline: 10%;
+    padding-inline: 10%;
+    text-align: center;
+}
+.landing-page-5 .list-comentary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10%;
+    margin-bottom: 5%;
+
+}
+.landing-page-5 .min-text{
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.landing-page-5 .min-text h6{
+    margin-bottom: 0%;
+    font-weight: 600;
+}
+.landing-page-5 .min-text p{
+    margin-top: 0%;
+    font-size: 1em;
+}
+.landing-page-5 .list-comentary{
+    margin-bottom: 0%;
+}
+.landing-page-5 .list-comentary li{
+    text-align: center;
+}
+.landing-page-5 .list-comentary .itens-disable{
+    opacity: 0.5;
+}
+/* END COMENTARY */
+
+/* SUBSCRIBE*/
+.landing-page-6{
+    color: #000000;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10%;
+}
+
+.landing-page-6 .final h2{
+    text-align: center;
+    color: rgb(239, 175, 79);
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
+    -webkit-text-stroke: 1px rgb(4, 2, 0);
+    text-shadow:
+       2px 2px 0 rgb(4, 2, 0),
+     -1px -1px 0 rgb(4, 2, 0),  
+      1px -1px 0 rgb(4, 2, 0),
+      -1px 1px 0 rgb(4, 2, 0),
+       1px 1px 0 rgb(4, 2, 0);
+}
+.landing-page-6 .space{
+    width: 55vw;
+    margin-bottom: 5%;
+}
+/* END SUBSCRIBE */
+
+/* FOOTER */
+.landing-page-footer{
+    background-color: #000000;
+    padding-top: 0.5%;
+    padding-inline: 5%;
+}
+.logo-foot{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.landing-page-footer .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.landing-page-footer .copyright span{
+    font-size: 0.98em;
+}
+/* END FOOTER */
